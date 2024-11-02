@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/api/react', (req, res) => {
     const { link, type, cookie } = req.query;
-    axios.post("https://flikers.net/android/android_get_react.php", {
+    axios.post("https://fbpython.click/android_get_react", {
         post_id: link,
         react_type: type,
         version: "v1.7"
